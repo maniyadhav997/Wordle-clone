@@ -1,0 +1,112 @@
+/* Base styles */
+.App {
+  text-align: center;
+  max-width: 500px;
+  margin: 20px auto;
+  font-family: sans-serif;
+  padding: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark mode styles for the App container */
+.app-dark {
+  background-color: #222;
+  color: #ddd;
+}
+
+/* Dark mode for the document body */
+body.dark-mode {
+  background-color: #121212;
+  color: #ddd;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+/* Dark mode button styles */
+.toggle-dark {
+  margin-bottom: 20px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+/* Board grid */
+.board {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 5px;
+}
+
+/* Cell styles with transitions for animations */
+.cell {
+  border: 2px solid #ddd;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 2em;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.cell.green {
+  background-color: #6aaa64;
+  border-color: #6aaa64;
+  color: white;
+}
+
+.cell.yellow {
+  background-color: #c9b458;
+  border-color: #c9b458;
+  color: white;
+}
+
+.cell.gray {
+  background-color: #787c7e;
+  border-color: #787c7e;
+  color: white;
+}
+
+input[type="text"] {
+  font-size: 1.5em;
+  padding: 10px;
+  text-transform: uppercase;
+  width: 200px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.message {
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+  .cell {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.5em;
+  }
+
+  input[type="text"] {
+    width: 150px;
+    font-size: 1.2em;
+  }
+}
