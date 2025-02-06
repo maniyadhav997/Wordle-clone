@@ -42,7 +42,7 @@ This is a simple Wordle clone built using React. The game allows users to guess 
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/wordle-clone.git
+   git clone https://github.com/maniyadhav997/Wordle-clone.git
    cd wordle-clone
    ```
 2. Install dependencies:
