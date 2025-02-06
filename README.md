@@ -62,7 +62,7 @@ This is a simple Wordle clone built using React. The game allows users to guess 
 
 ### Light Mode
 
-![Light Mode](screenshots/light-mode.png)
+![Light Mode](https://github.com/maniyadhav997/Wordle-clone/blob/74ef27b1d2d34f047c18118e6cd318e66ba95bfa/Screenshot%202025-02-06%20103457.png)
 
 ### Dark Mode
 
