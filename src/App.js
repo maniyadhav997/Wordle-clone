@@ -38,8 +38,7 @@ function computeFeedback(guess, target) {
 }
 
 function App() {
-  // Use a larger word list if available, otherwise use the small list.
-  const WORDS = SMALL_WORDS; // or WORDS if you imported a large list.
+  const WORDS = SMALL_WORDS;
   const [target, setTarget] = useState('');
   const [guesses, setGuesses] = useState([]);
   const [currentGuess, setCurrentGuess] = useState('');
